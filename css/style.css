@@ -1,0 +1,102 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+html {
+	font-family: "OpenSans", "Helvetica Neue", "Helvetica", Arial, Verdana, sans-serif;
+	background: #000000;
+}
+#tiles {
+	height:100%;
+	width:100%;
+}
+.profile_image img {
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	margin-bottom:10px;
+}
+.name {
+	width:222px;
+	overflow:hidden;
+	font-size:26px;
+	white-space: pre;
+	font-weight: bold;
+	position:absolute;
+	margin-left:5px;
+}
+.hashtag {
+	font-weight: bold;
+}
+.mention {
+	position:absolute;
+	margin-left:5px;
+	font-size: 16px;
+	margin: 30px 0 0 5px;
+}
+.text {
+	word-wrap:break-word;
+	font-size: 26px;
+}
+.tile {
+	color: #ffffff;
+	cursor:pointer;
+	z-index:2;
+	display: block;
+    position: relative;
+	float: left;
+	margin: 5px;
+	width:275px;
+	height:275px;
+	padding: 10px;
+}
+.pic {
+	position:absolute;
+	height:220px;
+	width:275px;
+	overflow: hidden;
+}
